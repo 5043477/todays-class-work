@@ -11,10 +11,9 @@ class Main {
     int currentYear = scan.nextInt();
     System.out.println("what is your birth year");
     int birthYear = scan.nextInt();
-    System.out.println();
-    System.out.println();
+    System.out.println("how long do you think you will live for");
     int soulYear = scan.nextInt();
-
+    System.out.println();
     System.out.println(greeting(name));
   
     int age = getAge(birthYear, currentYear);
@@ -31,7 +30,7 @@ return age;
  //greeting method returns a personalized greeting
  static String greeting(String name)
  {
-  String hello = "hello. welcome back," + name;
+  String hello = "hello. welcome back, " + name;
   return hello;
  }
 
