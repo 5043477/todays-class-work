@@ -11,6 +11,9 @@ class Main {
     int currentYear = scan.nextInt();
     System.out.println("what is your birth year");
     int birthYear = scan.nextInt();
+    System.out.println();
+    System.out.println();
+    int soulYear = scan.nextInt();
 
     System.out.println(greeting(name));
   
@@ -34,4 +37,16 @@ return age;
 
  //create a method that takes in at least 1 parameter and returns some type 
  //call this method within your main method just like we did with getAge & greeting
+ static int soulYears(int currentYear, int soulYear)
+ {
+int age = soulYear - currentYear;
+return age;
+ }
+
+ //greeting method returns a personalized greeting
+ static String main(String main)
+ {
+  String hello = "" + main;
+  return hello;
+ }
 }
