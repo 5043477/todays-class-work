@@ -1,5 +1,6 @@
 
 import java.util.Scanner;
+
 class Main {
   public static void main(String[] args) 
   {
@@ -17,7 +18,7 @@ class Main {
     System.out.println(greeting(name));
   
     int age = getAge(birthYear, currentYear);
-    System.out.println("your age is" + age);
+    System.out.println("your age is " + age);
   }
 
 //getAge method calculates getAge
@@ -43,7 +44,7 @@ return age;
  }
 
  //greeting method returns a personalized greeting
- static String main(String main)
+ static String hello(String main)
  {
   String hello = "" + main;
   return hello;
